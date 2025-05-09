@@ -1,0 +1,254 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 1600px;
+    height: 1740px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-table {
+    color: #f7fcfa;
+    margin: auto;
+    width: 1280px;
+    height: 160x;
+}
+
+.line-top-table {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    height: 103px;
+    background-color: #2bb4f3;
+    border: none;
+    z-index: -1;
+    margin: auto;
+}
+
+.logo {
+    width: 80%;
+    margin-left: 60px;
+}
+
+.top-table td {
+    border: none;
+}
+
+.top-table-middle {
+    width: 700px;
+    margin: auto;
+}
+
+.top-table-middle td {
+    border: none;
+}
+
+.search {
+    padding: 8px;
+    border: 2px solid black;
+    width: 100%;
+    min-height: 30px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.top-table-last {
+    margin: auto;
+    margin-right: 30px;
+}
+
+.telega {
+    width: 42px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+.navig-panel {
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    margin-top: 4px;
+}
+
+.navig-panel td {
+    text-align: center;
+    border: none;
+}
+
+.line-navig-panel {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    height: 50px;
+    background-color: #181818;
+    border: none;
+    z-index: -1;
+    margin: auto;
+}
+
+.register {
+    color: white;
+    text-decoration: none;
+}
+
+.register:hover {
+    text-decoration: underline;
+}
+
+.line-middle-table {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    height: 1300px;
+    background-color: #f2f2f2;
+    border: none;
+    z-index: -1;
+    margin: auto;
+    margin-top: 0;
+}
+
+.middle-table-one,
+.middle-table-two, 
+.middle-table-three {
+    width: 1000px;
+    height: 333px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-spacing: 10px;
+    table-layout: fixed;
+}
+
+.middle-table-one {
+    margin-top: 140px;
+}
+
+.middle-table-one td,
+.middle-table-two td,
+.middle-table-three td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: bottom;
+    max-width: 100px;
+    max-height: 110px;
+    border: 1px solid #181818;
+    table-layout: fixed;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.two, .three, .four,
+.five, .mirror, .pyraminx,
+.megaminx, .others, .accessories {
+    width: 80%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.two {
+    margin-left: 15px;
+}
+
+.others {
+    width: 85%;
+}
+
+.accessories {
+    width: 85%;
+}
+
+.line-bottom-table {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    height: 310px;
+    background-color: #2bb4f3;
+    border: none;
+    z-index: -1;
+    margin: auto;
+    margin-top: 142px;
+}
+
+.bottom-table {
+    color: #f7fcfa;
+    width: 1000px;
+    height: 290px;
+    border: none;
+    margin: auto;
+    margin-top: 140px;
+    table-layout: fixed;
+}
+
+.bottom-table td {
+    border: none;
+    vertical-align: top;
+}
+
+.info-one,
+.info-two,
+.info-three,
+.info-four {
+    margin-bottom: 0;
+}
+
+.info-three li {
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.info-five {
+    margin-left: 0;
+    margin-top: -5px;
+}
+
+.info-five dt {
+    font-weight: bold;
+    padding: 5px;
+}
+
+div p {
+    text-align: center;
+    font-size: 16px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+div li {
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+.logos-table {
+    height: 30px;
+    text-align: center;
+}
+
+.twitter-logo {
+    height: 25px;
+    width: auto;
+    margin-top: 3px;
+}
+
+.instagram-logo,
+.facebook-logo,
+.tiktok-logo {
+    height: 25px;
+    width: auto;
+    margin-left: 5px;
+}
+
+.youtube-logo {
+    height: 20px;
+    width: auto;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}

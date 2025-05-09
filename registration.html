@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Вікно реєстрації</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet_registration.css">
+    </head>
+
+    <body>
+        <form>
+            <table class="register-table">
+                <tr>
+                    <th colspan="2">Реєстраційна форма</th>
+                </tr>
+
+                <tr>
+                    <td>Ім'я та прізвище: </td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+
+                <tr>
+                    <td>Електронна пошта: </td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td>Пароль: </td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Дата реєстрації: </td>
+                    <td>
+                        <select name="number" id="date">
+                            <option>1</option><option>2</option><option>3</option>
+                            <option>4</option><option>5</option><option>6</option>
+                            <option>7</option><option>8</option><option>9</option>
+                            <option>10</option><option>11</option><option>12</option>
+                            <option>13</option><option>14</option><option>15</option>
+                            <option>16</option><option>17</option><option>18</option>
+                            <option>19</option><option>20</option><option>21</option>
+                            <option>22</option><option>23</option><option>24</option>
+                            <option>25</option><option>26</option><option>27</option>
+                            <option>28</option><option>29</option><option>30</option>
+                            <option>31</option>
+                        </select>
+
+                        <select name="dates" id="month">
+                            <option value="jan">січень</option>
+                            <option value="feb">лютий</option>
+                            <option value="mar">березень</option>
+                            <option value="apr">квітень</option>
+                            <option value="may">травень</option>
+                            <option value="jun">червень</option>
+                            <option value="jul">липень</option>
+                            <option value="aug">серпень</option>
+                            <option value="sept">вересень</option>
+                            <option value="oct">жовтень</option>
+                            <option value="nov">листопад</option>
+                            <option value="dec">грудень</option>
+                        </select>
+
+                        <input type="text" maxlength="4" placeholder="Рік" id="year" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Чи мали досвід з головоломками раніше? </td>
+                    <td>
+                        <input type="radio" name="yesNo" value="Yes" style="cursor: pointer;">Так
+                        <input type="radio" name="yesNo" value="No" style="cursor: pointer;">Ні
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="checkbox" checked style="cursor: pointer;">
+                        Я бажаю отримувати повідомлення про нові товари на електронну пошту
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Подати запит" id="submit">
+                        <input type="reset" value="Відмінити" id="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
